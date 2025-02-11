@@ -1,0 +1,111 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"> Demo Survey</h1>
+    <p id="description">Thank you for looking at my portfolio</p>
+    <form id="survey-form">
+      <fieldset> 
+        <label id="name-label" for="name">Enter Your First Name:<p></p> <input id="name" type="text" placeholder="Name" required/> </label>
+        <label for="last-name">Enter Your Last Name: <p></p><input placeholder="Last Name" id="last-name" type="text" required /></label>
+        <label id="email-label" for="email">Enter Your Email:<p></p> <input  id="email" placeholder="example@email.com" name="email" type="email" required /></label>
+        <label id="number-label" for="number">
+Enter Your Age:<p></p> <input placeholder="00" id="number" type="number" min="13" max="120"/></label>
+<fieldset>
+        <legend>Contact Motive (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked value="checked" /> Personal</label>
+        <label for="business-account"><input value="checked" id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+      </fieldset>
+<label for="referrer"> How did you hear about Daniel?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">LinkedIn</option>
+            <option value="2">GitHub</option>
+            <option value="3">Resume</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+
+      </fieldset>
+       
+       <label for="contact">
+         Contact  <a href="danngwork@gmail.com">Daniel Navas</a> <p></p>Yes
+         <input class="inline" id="contact" type="checkbox" value="checkbox" required name="contact" checked />
+         No <input class="inline" id="contact" type="checkbox" value="checkbox" required name="contact" />
+
+      </label>
+       <label for="bio">Leave A Comment:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="You can improve in this..."></textarea>
+        </label>
+
+     
+  <input id="submit" type="submit" value="Submit" />
+
+  </body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://w0.peakpx.com/wallpaper/41/871/HD-wallpaper-abstract-41-art-background-black-color-creativity-design-form-geometry-graphics-pattern.jpg);
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+fieldset {
+  
+  padding: 2rem 0;
+  
+}
+label {
+  display: block;
+  margin: 0.7rem ;
+}
+label:last-of-type{
+  display: block;
+  margin: 0.7rem ;
+}
+input[type="file"] {
+  padding: 1px 2px;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  color:white;
+  font-size: 1.1rem;
+  background-color: #565762;
+  border-color: white;
+  min-width: 300px;
+}
+form {
+  background-color: #45464f;
+  
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+** end of undefined **
+
